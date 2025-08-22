@@ -1,0 +1,25 @@
+{
+  "name": "Wonder Women Flairy",
+  "description": "Hand-drawn portrait of Wonder Woman with flairy strokes and bold color highlights, blending shades of red, blue, and purple.",
+  "image": "ipfs://bafkreiepqmgkrkpenatnety6dw4rsdogc6a6vyj3wwoyt6obveoleratt4",
+  "attributes": [
+    {
+      "trait_type": "Medium",
+      "value": "Colored Pencil"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Heroism"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Comic Sketch"
+    },
+    {
+      "trait_type": "Color Palette",
+      "value": "Red, Blue, Purple, Black"
+    }
+  ],
+  "artist": "Lokesh Mudgal",
+  "created_at": "2025-08-22"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Victory Roar",
+  "description": "Pencil sketch of a cricketer in celebration pose, holding a bat and helmet, with expressive energy.",
+  "image": "ipfs://bafkreiatkg45kt7r4zibjpbq5d2gdiu6u3mlwkffhxnizfvi2ejzlcihuu",
+  "attributes": [
+    {
+      "trait_type": "Medium",
+      "value": "Pencil Sketch"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Sports"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Realistic Sketch"
+    },
+    {
+      "trait_type": "Color Palette",
+      "value": "Black, White, Grey"
+    }
+  ],
+  "artist": "Lokesh Mudgal",
+  "created_at": "2025-08-22"
+}

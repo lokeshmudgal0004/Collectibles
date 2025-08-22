@@ -1,0 +1,13 @@
+{
+  "name": "Urban Schoolgirl",
+  "description": "A monochrome ink illustration of a stylish schoolgirl in a checkered skirt and oversized sweater, carrying a sling bag and wearing a beret. The piece captures a blend of innocence and edge, reflecting modern youth fashion.",
+  "image": "ipfs://bafkreidesaq5pkpbdigra2zvf5kh6kmo3wohhlfzpcdwvx7cbcetxfy2hy",
+  "attributes": [
+    { "trait_type": "Medium", "value": "Ink on Paper" },
+    { "trait_type": "Theme", "value": "Fashion, Youth" },
+    { "trait_type": "Style", "value": "Monochrome Illustration" },
+    { "trait_type": "Color Palette", "value": "Black and White" }
+  ],
+  "artist": "Lokesh Mudgal",
+  "created_at": "2025-08-22"
+}

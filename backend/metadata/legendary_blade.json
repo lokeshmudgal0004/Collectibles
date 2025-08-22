@@ -1,0 +1,25 @@
+{
+  "name": "Blade of the Ancients",
+  "description": "A massive double-edged sword with symmetrical curves, mystical engravings, and circular markings along its length. Forged for forgotten champions, it radiates hidden energy.",
+  "image": "ipfs://bafkreihq6m35t7fqmv6ym3wzw2pyiiyntulqku2hrtoamjftgf5yyfchhy",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Sword"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Celestial Steel"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Ancient Weaponry"
+    }
+  ],
+  "artist": "Lokesh Mudgal",
+  "created_at": "2025-08-22"
+}

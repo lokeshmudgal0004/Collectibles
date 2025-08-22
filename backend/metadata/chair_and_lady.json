@@ -1,0 +1,25 @@
+{
+  "name": "Lost in a Book",
+  "description": "Hand-drawn art of a person leaning on a chair with a book covering their face. Pen and ink with blue highlights on jeans.",
+  "image": "ipfs://bafkreierywyvd3o6sziqwgfqetzcxpxqavojlqeawlxmaonixgf5rglrzm",
+  "attributes": [
+    {
+      "trait_type": "Medium",
+      "value": "Pen and Ink"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Relaxation"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Sketch"
+    },
+    {
+      "trait_type": "Color Palette",
+      "value": "Black, Blue, Brown"
+    }
+  ],
+  "artist": "Lokesh Mudgal",
+  "created_at": "2025-08-22"
+}
