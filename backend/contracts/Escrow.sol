@@ -12,7 +12,6 @@ interface IERC721 {
 contract Escrow {
     address public nftAddress;
     address public artist;
-    address public collector;
     address public verifier;
 
     modifier onlySeller() {
@@ -41,12 +40,10 @@ contract Escrow {
     constructor (
       address _nftAddress,
       address _seller,
-      address _buyer,
       address _verifier
     ) {
       nftAddress = _nftAddress;
       artist = _seller;
-      collector = _buyer;
       verifier = _verifier;
     }
 
