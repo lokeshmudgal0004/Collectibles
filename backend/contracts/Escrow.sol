@@ -29,12 +29,12 @@ contract Escrow {
       _;
     }
 
-    mapping(uint256 => bool) isListed;
-    mapping(uint256 => uint256) purchaseAmount;
-    mapping(uint256 => uint256) escrowAmount;
-    mapping(uint256 => address) buyer;
-    mapping(uint256 => uint256) escrowDeposited;
-    mapping(uint256 => bool) isVerified;
+    mapping(uint256 => bool) public isListed;
+    mapping(uint256 => uint256) public purchaseAmount;
+    mapping(uint256 => uint256) public escrowAmount;
+    mapping(uint256 => address) public buyer;
+    mapping(uint256 => uint256) public escrowDeposited;
+    mapping(uint256 => bool) public isVerified;
     mapping(uint256 => mapping(address => bool)) public approval;
 
     constructor (
