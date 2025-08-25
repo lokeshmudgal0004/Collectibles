@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { ethers } from "ethers";
 import "./ToggleProp.css";
 
-export default function ToggleProp({ art, onClose }) {
+export default function ToggleProp({ provider, escrow, id, art, onClose }) {
   if (!art) return null; // don't render if no art selected
+
+  const [hasBought, setHasBought] = useState(false);
+
+  const [buyer, setBuyer] = useState(null);
+
+  const buyHandler = async () => {
+    const escrowAmount = await escrow.escrowAmount(id);
+    const signer = await provider.getSigner();
+
+    // Buyer deposit earnest
+    let transaction = await escrow
+      .connect(signer)
+      .depositEscrow(id, { value: escrowAmount });
+    await transaction.wait();
+
+    // Buyer approves...
+    transaction = await escrow.connect(signer).approveSale(id);
+    await transaction.wait();
+
+    setHasBought(true);
+
+    const buyer = await escrow.buyer(id);
+    setBuyer(buyer);
+  };
 
   return (
     <div className="overlay">
@@ -44,7 +69,13 @@ export default function ToggleProp({ art, onClose }) {
           </ul>
 
           <div className="actions">
-            <button className="buy-btn">Buy</button>
+            <button
+              className="buy-btn"
+              onClick={buyHandler}
+              disabled={hasBought}
+            >
+              {hasBought ? "Purchased" : "Buy"}
+            </button>
             <button className="contact-btn">Contact Artist</button>
           </div>
         </div>

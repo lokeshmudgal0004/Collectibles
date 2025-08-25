@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NFTCard.css";
 
-export default function NFTCard({ data, key, onClickHandler }) {
+export default function NFTCard({ data, id, onClickHandler }) {
   const [showAttributes, setShowAttributes] = useState(false);
 
   // Extract purchase price if it exists
@@ -10,7 +10,7 @@ export default function NFTCard({ data, key, onClickHandler }) {
   );
 
   return (
-    <div className="nft-card" key={key} onClick={() => onClickHandler(data)}>
+    <div className="nft-card" onClick={() => onClickHandler(data, id)}>
       {/* Image */}
       <div className="nft-image">
         <img src={data.image} alt={data.name} />
