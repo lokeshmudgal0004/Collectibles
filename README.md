@@ -53,14 +53,14 @@ This project combines **Solidity smart contracts**, **React frontend**, and **Et
    npm run dev
    ```
 # ScreenShots
-HomePage
+-HomePage
 ![Web capture_26-8-2025_9129_localhost](https://github.com/user-attachments/assets/480b7c75-811a-46ef-ac18-d2e3e7e8dbf4)
 
-Connect Wallet
+-Connect Wallet
 ![Web capture_26-8-2025_9150_localhost](https://github.com/user-attachments/assets/1309d456-64b9-431c-8672-2bce01f223d9)
 ![Web capture_26-8-2025_9229_localhost](https://github.com/user-attachments/assets/c6fde8c2-8bea-4a1a-85fc-d124783569fe)
 
-Toggle Prop to Buy the nft
+-Toggle Prop to Buy the nft
 ![Web capture_26-8-2025_9335_localhost](https://github.com/user-attachments/assets/5fdd864b-61fa-4724-a85d-8b014cf249d4)
 
 
